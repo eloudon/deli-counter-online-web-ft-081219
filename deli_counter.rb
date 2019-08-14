@@ -10,3 +10,4 @@ else
     katz_deli.push ("#{index + 1}. #{person}")
 end
 puts "The line is currently: " + katz_deli(" ")
+end
