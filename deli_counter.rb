@@ -6,13 +6,13 @@ def line(line)
     puts "The line is currently empty."
 
   else
-    current = "The line is currently: "
+    ct = "The line is currently: "
     count = 0
     line.each do |person|
       count += 1
-      current += "#{count}. #{person}"
-      current += " " if count !=line.size
+      ct += "#{count}. #{person}"
+      ct += " " if count !=line.size
     end
-    puts current
-    current
+    puts ct
+    ct
   end
