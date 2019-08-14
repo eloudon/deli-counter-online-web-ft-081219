@@ -8,3 +8,5 @@ if line.size == 0
 else
   line,each_with_index do |person, index|
     katz_deli.push ("#{index + 1}. #{person}")
+end
+puts "The line is currently: " + katz_deli(" ")
