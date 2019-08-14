@@ -10,4 +10,9 @@ def line(line)
     count = 0
     line.each do |person|
       count += 1
-      
+      current += "#{count}. #{person}"
+      current += " " if count !=line.size
+    end
+    puts current
+    current
+  end
